@@ -1,6 +1,6 @@
 # Curso de Python Básico 🐍
 
-Este repositório reúne os exercícios, exemplos e desafios desenvolvidos durante um curso introdutório de Python. O objetivo é consolidar conceitos fundamentais da linguagem de forma prática e progressiva.
+Este repositório reúne os exercícios, exemplos e desafios desenvolvidos durante um curso introdutório de Python que estudei. O objetivo é consolidar conceitos fundamentais da linguagem de forma prática e progressiva.
 
 ## 📚 Conteúdo das Aulas
 
