@@ -1,0 +1,5 @@
+dicionario = {
+    
+}
+print (dicionario)
+
