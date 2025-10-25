@@ -1,5 +1,3 @@
-
-```markdown
 # 📘 Aula 2 - Variáveis e Tipos de Dados
 ## 📌 Conteúdo Abordado
 - Tipos de dados em Python
