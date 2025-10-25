@@ -14,3 +14,4 @@ Entender como armazenar e manipular dados em Python, aplicando boas práticas de
 ## ▶️ Como Executar
 ```bash
 python aula2.py
+
