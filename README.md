@@ -1,42 +1,59 @@
 # Curso de Python Básico 🐍
 
-Este repositório reúne os exercícios, exemplos e desafios desenvolvidos durante um curso introdutório de Python que estudei. O objetivo é consolidar conceitos fundamentais da linguagem de forma prática e progressiva.
+[![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://www.python.org/) 
+[![VS Code](https://img.shields.io/badge/Editor-VSCode-blueviolet)](https://code.visualstudio.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repositório-black)](https://github.com/SirGusttavo/curso-python-basico)
+
+Este repositório reúne exercícios, exemplos e desafios do curso introdutório de Python que estudei. O objetivo é consolidar conceitos fundamentais da linguagem de forma prática e progressiva.
+
+---
+
+## 📖 Índice Rápido
+
+- [📚 Conteúdo das Aulas](#-conteúdo-das-aulas)  
+- [💻 Requisitos](#-requisitos)  
+- [📂 Como usar](#-como-usar)  
+- [🔑 Observações](#-observações)  
+
+---
 
 ## 📚 Conteúdo das Aulas
 
-| Aula | Tema                        | Descrição breve                                      |
-|------|-----------------------------|------------------------------------------------------|
-| 01   | Introdução                  | Uso do `print()`, primeiros comandos em Python       |
-| 02   | Variáveis                   | Tipos de dados, entrada de dados                     |
-| 03   | Condicionais                | `if`, `elif`, `else`, operadores lógicos             |
-| 04   | Laços de Repetição          | Estruturas `for`, `while` e `range()`                |
-| 05   | Funções                     | Definição, parâmetros, retorno                       |
-| 06   | Listas, Tuplas e Dicionários| Estruturas de dados compostas e seus métodos         |
-| 07   | Switch Case e Match         | Uso do `match case` no Python 3.10+                  |
-| 08   | Correção de Bugs            | Análise e correção de erros em códigos existentes    |
-| 09   | Testes Automatizados        | Envio de SMS, testes com `pytest` e teste de stress  |
-| 10   | Desafio Final               | Projeto integrador com conceitos aprendidos          |
-
-> Novas aulas e melhorias serão adicionadas conforme o progresso do curso.
+| Aula | Tema                                         | Link / Descrição |
+|------|---------------------------------------------|-----------------|
+| 01   | Introdução                                  | [Aula 01](./aula01-introducao) - Conceitos básicos de Python e ambiente. |
+| 02   | Variáveis e Tipos de Dados                  | [Aula 02](./aula02-variaveis-tipos) - Tipos de dados e declaração de variáveis. |
+| 03   | Operadores e Manipulação de Strings         | [Aula 03](./aula03-operadores-strings) - Operadores e manipulação de textos. |
+| 04   | Estruturas Condicionais e Repetição         | [Aula 04](./aula04-condicionais-repeticao) - `if`, `else`, `elif` e loops básicos. |
+| 05   | Estruturas de Repetição Avançadas           | [Aula 05](./aula05-repeticao-avancada) - Loops avançados e controle de iteração. |
+| 06   | Revisão de Conteúdos                        | [Aula 06](./aula06-revisao) - Recapitulação e exercícios práticos. |
+| 07   | Estruturas Condicionais (if, elif, else)   | [Aula 07](./aula07-condicionais) - Aplicações práticas de condicionais. |
+| 08   | Laços Aninhados e Estruturas de Controle    | [Aula 08](./aula08-lacos-aninhados) - Combinação de loops e condicionais. |
+| 09   | Listas, Tuplas e Dicionários                | [Aula 09](./aula09-listas-tuplas-dicionarios) - Estruturas de dados fundamentais. |
+| 10   | Automação com Python                        | [Aula 10](./aula10-automacao) - Scripts para automatizar tarefas. |
+| 11   | Funções, Importação de Arquivos, Match-Case e Introdução à POO | [Aula 11](./aula11-funcoes-poo) - Organização de código e conceitos de POO. |
+| 12   | Criação de Interfaces com PyQt6             | [Aula 12](./aula12-pyqt6) - Desenvolvimento de interfaces gráficas. |
+| 13   | Correção de Bugs e Depuração                | [Aula 13](./aula13-debugging) - Técnicas de debugging e boas práticas. |
+| 14   | Desafio Final                               | [Aula 14](./aula14-desafio-final) - Calculadora completa com PyQt6. |
 
 ---
 
 ## 💻 Requisitos
 
-- Python 3.10 ou superior
-- VS Code, PyCharm ou qualquer outro editor
-- Git e terminal instalados (opcional, mas recomendado)
+- Python 3.10 ou superior  
+- VS Code, PyCharm ou outro editor de sua preferência  
+- Git e terminal (opcional, mas recomendado)  
 
 ---
 
 ## 📂 Como usar
 
 ```bash
-# Clone este repositório
+# Clone o repositório
 git clone https://github.com/SirGusttavo/curso-python-basico.git
 
-# Acesse a pasta
+# Acesse a pasta do curso
 cd curso-python-basico
 
-# Rode os arquivos Python de acordo com a aula
-python aula06-listas-tuplas-dicionarios/listas.py
+# Execute os arquivos Python de acordo com a aula
+python aula06-revisao/listas.py
