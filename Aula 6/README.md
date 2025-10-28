@@ -6,7 +6,5 @@
 ## 🧠 Objetivo da Aula
 Consolidar os conhecimentos adquiridos nas aulas anteriores através da prática e revisão.
 
-## ▶️ Como Executar
-```bash
-python aula6.py
+
 
