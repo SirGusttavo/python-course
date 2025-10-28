@@ -7,8 +7,3 @@
 
 ## 🧠 Objetivo da Aula
 Compreender como controlar o fluxo do programa utilizando decisões condicionais e laços de repetição.
-
-## ▶️ Como Executar
-```bash
-python aula4.py
-
