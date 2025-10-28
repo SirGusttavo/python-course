@@ -34,7 +34,7 @@ Este repositório reúne exercícios, exemplos e desafios do curso introdutório
 | 11   | Funções, Importação de Arquivos, Match-Case e Introdução à POO | [Aula 11](./aula11-funcoes-poo) - Organização de código e conceitos de POO. |
 | 12   | Criação de Interfaces com PyQt6             | [Aula 12](./aula12-pyqt6) - Desenvolvimento de interfaces gráficas. |
 | 13   | Correção de Bugs e Depuração                | [Aula 13](./aula13-debugging) - Técnicas de debugging e boas práticas. |
-| 14   | Desafio Final                               | [Aula 14](./aula14-desafio-final) - Calculadora completa com PyQt6. |
+| 14   | Desafio Final                               | [Aula 14](./Aula14) - Calculadora completa com PyQt6. |
 
 ---
 
