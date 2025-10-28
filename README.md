@@ -13,7 +13,6 @@ Este repositório reúne exercícios, exemplos e desafios do curso introdutório
 - [📚 Conteúdo das Aulas](#-conteúdo-das-aulas)  
 - [💻 Requisitos](#-requisitos)  
 - [📂 Como usar](#-como-usar)  
-- [🔑 Observações](#-observações)  
 
 ---
 
