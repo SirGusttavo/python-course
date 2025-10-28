@@ -1,8 +1,3 @@
-# =====================================================
-# Aula 11 - Funções em Python
-# Escola Técnica SENAI Nami Jafet
-# Autor: Gustavo Morais
-# =====================================================
 
 # Exemplo 1: Função que imprime o valor de uma variável global
 x = 10
@@ -76,3 +71,4 @@ def dobro(g):
 
 resultado = dobro(5)
 print("Dobro de 5 é:", resultado)
+
