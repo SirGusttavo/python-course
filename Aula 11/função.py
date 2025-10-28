@@ -1,59 +1,78 @@
-# #Definir uma função que imprima uma váriavel
+# =====================================================
+# Aula 11 - Funções em Python
+# Escola Técnica SENAI Nami Jafet
+# Autor: Gustavo Morais
+# =====================================================
 
-# x = 10
+# Exemplo 1: Função que imprime o valor de uma variável global
+x = 10
 
-# def imrprimir_variavel():
-#     print("Valor:", x)  
+def imprimir_variavel():
+    """Imprime o valor da variável global x"""
+    print("Valor:", x)
 
-# #Chamar a função
+imprimir_variavel()
+print("-" * 40)
 
-# imrprimir_variavel() 
+# Exemplo 2: Função que altera o valor de uma variável local
+y = 5
 
-# #Uma função que altere o valor de váriavel principal
+def alterar_variavel():
+    """Altera o valor da variável local y"""
+    y = 10
+    print("Alterou para:", y)
 
-# y = 5 
+alterar_variavel()
+print("-" * 40)
 
-# def alterar_variavel():
-#     y = 10
-#     print("Alterou para:",y) 
-# alterar_variavel()
+# Exemplo 3: Função que imprime a soma de dois valores fixos
+def soma_fixa():
+    """Soma dois valores fixos"""
+    a = 2
+    b = 3
+    print("Soma fixa:", a + b)
 
-# #Função que imprime a soma de dois valores
+soma_fixa()
+print("-" * 40)
 
-# def soma():
-#     a = 2
-#     b = 3
-#     print(a + b)
-# soma()
+# Exemplo 4: Função com parâmetros
+def soma(a, b):
+    """Recebe dois valores e imprime sua soma"""
+    print(f"Soma de {a} + {b} = {a + b}")
 
-# #Função com parametros 
-# #Imprime a soma de dois valores
+soma(10, 10)
+print("-" * 40)
 
-# def soma(a, b):
-#     print(a + b)
-# soma(10, 10)
+# Exemplo 5: Função com cálculo de diferença
+def diferenca(c, d):
+    """Exibe a diferença entre dois valores"""
+    print("Diferença entre Max e Charles é:", c - d, "pontos")
 
-# #Diferença entre numeros
+diferenca(169, 138)
+print("-" * 40)
 
-# def diferença(c, d):
-#     print("Diferença entre Max e Charles é:", c - d, "pontos")
-# diferença(169, 138)
+# Exemplo 6: Função com parâmetro opcional
+def saudacao(nome="Amigo"):
+    """Exibe uma saudação personalizada"""
+    print(f"Olá, {nome}!")
 
-# #Função com parametro opcional
-# def saudação(nome = "Amigo"):
-#     print(f"Olá,{nome}")
-# saudação(input("Digite um  nome: "))
+nome_digitado = input("Digite um nome: ")
+saudacao(nome_digitado)
+print("-" * 40)
 
-# def multilplex(a, b = 1):
-#     print(a, b)
-# multilplex(4)
-# multilplex(4,5)
+# Exemplo 7: Função com múltiplos parâmetros opcionais
+def multiplica(a, b=1):
+    """Exibe dois valores, com o segundo sendo opcional"""
+    print(f"Valores recebidos: a={a}, b={b}")
 
-#Função com return
-# def dobro(g):
-#     return g * 2
+multiplica(4)
+multiplica(4, 5)
+print("-" * 40)
 
-# resultado = dobro(5)
-# print(resultado)
+# Exemplo 8: Função com retorno de valor
+def dobro(g):
+    """Retorna o dobro do valor fornecido"""
+    return g * 2
 
-
+resultado = dobro(5)
+print("Dobro de 5 é:", resultado)
