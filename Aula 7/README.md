@@ -1,11 +1,9 @@
-# 📘 Aula 7 - Prática de Exercícios
+# 📘 Aula 7 - Estruturas Condicionais (if, elif, else)
 ## 📌 Conteúdo Abordado
-- Exercícios práticos aplicando conceitos de variáveis, operadores, strings e estruturas de controle
+Introdução às estruturas condicionais em Python, utilizando `if`, `elif` e `else` para criar programas capazes de tomar decisões com base em comparações e condições lógicas.  
+Foram realizados exercícios envolvendo cálculos, verificações numéricas e classificações.
 
 ## 🧠 Objetivo da Aula
-Praticar os conceitos aprendidos nas aulas anteriores, reforçando a lógica de programação em Python.
+Entender o funcionamento das estruturas condicionais e aplicá-las na resolução de problemas práticos.
 
-## ▶️ Como Executar
-```bash
-python aula7.py
 
