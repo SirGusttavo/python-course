@@ -8,7 +8,3 @@
 ## 🧠 Objetivo da Aula
 Compreender os conceitos fundamentais da linguagem Python e iniciar a prática com comandos básicos no interpretador.
 
-## ▶️ Como Executar
-Certifique-se de ter o Python instalado.  
-```bash
-python aula1.py
