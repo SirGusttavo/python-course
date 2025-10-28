@@ -10,7 +10,3 @@
 ## 🧠 Objetivo da Aula
 Aprender a processar dados de entrada, manipular strings e operar sobre variáveis de diferentes tipos.
 
-## ▶️ Como Executar
-```bash
-python aula3.py
-
