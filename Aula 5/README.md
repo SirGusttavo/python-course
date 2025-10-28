@@ -8,7 +8,5 @@
 ## 🧠 Objetivo da Aula
 Aprender a utilizar loops `for` para automatizar tarefas repetitivas e iterar sobre coleções de dados.
 
-## ▶️ Como Executar
-```bash
-python aula5.py
+
 
