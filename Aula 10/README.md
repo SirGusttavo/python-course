@@ -1,50 +1,19 @@
-# Automação com Python
+# 📘 Aula 10 - Automação com Python
 
-Este projeto demonstra dois exemplos simples de automação usando Python:
+## 📌 Conteúdo Abordado
+Nesta aula, exploramos a automação de tarefas com Python.  
+Foram apresentados dois exemplos práticos:
 
-- **Envio de mensagens SMS com Twilio**
-- **Abertura automática de sites com o módulo `webbrowser`**
+- **Envio de mensagens SMS** utilizando a API da **Twilio**.  
+- **Abertura automática de sites** através do módulo nativo `webbrowser`.  
 
----
+Além disso, aprendemos a utilizar o módulo `dotenv` para armazenar credenciais de forma segura por meio de variáveis de ambiente.
 
-## 📦 Scripts incluídos
+## 🧠 Objetivo da Aula
+Compreender como o Python pode ser usado para automatizar ações do dia a dia e integrar aplicações com APIs externas.  
+Aprender a estruturar scripts seguros e reutilizáveis em projetos reais.
 
-### `index.py`
-Envia uma mensagem SMS utilizando a API da Twilio. As credenciais são carregadas de um arquivo `.env` (não incluído no repositório).
-
-> 💡 Exemplo de mensagem: `"Este é um teste de envio automático via Twilio com Python."`
-
-### `outro.py`
-Abre automaticamente a página do SENAI Mogi das Cruzes no navegador padrão.
-
----
-
-## 🔐 Variáveis de Ambiente
-
-Preencha os dados no arquivo `.env` com base no modelo abaixo:
-
-```
-TWILIO_ACCOUNT_SID=your_account_sid_here
-TWILIO_AUTH_TOKEN=your_auth_token_here
-TWILIO_FROM=+1415xxxxxxx
-TWILIO_TO=+55xxxxxxxxxx
-```
-
----
-
-## ▶️ Execução
-
-Instale o pacote `python-dotenv` e `twilio` com:
-
-```bash
-pip install python-dotenv twilio
-```
-
-Execute os scripts:
-
-```bash
-python index.py
-python outro.py
-```
-
----
+## ▶️ Como Executar
+1. Instale as dependências necessárias:
+   ```bash
+   pip install python-dotenv twilio
